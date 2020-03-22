@@ -1,3 +1,4 @@
+# Kernel development project 
 - Implement processes, thread, scheduler, synchronisation, VM, Virtual file system , Unix OS
 - Use QEMU emulator to run and GDB for debugging 
 - Kernel module which 
@@ -6,3 +7,7 @@
 - FIle encrytion, decryption in Linux using CryptoAPI
 - Kernel locking, Producer-Consumer, Netlink sockets and throttling 
 - Developed a kernel module which when loaded instantiates a producer-consumer work queue and a kernel thread to process the queue. The queue contains various job requests such as  Contenation of multiple files etc.
+- Decipher process scheduling and understand effective capacity utilization under general and real-time dispositions
+- Understand concurrent execution on SMP platforms through kernel synchronization and locking techniques
+- Clock subsystem
+- Process communication techniques through signals and IPC mechanisms
