@@ -1,0 +1,8 @@
+-Implement processes, thread, scheduler, synchronisation, VM, Virtual file system , Unix OS
+-Use QEMU emulator to run and GDB for debugging 
+-Kernel module which 
+-Develop filesystem in linux kernel to detect files containing bad patterns 
+-System call handle malicious cases and prevents memory leaks and unnessary memory allocation
+-FIle encrytion, decryption in Linux using CryptoAPI
+-Kernel locking, Producer-Consumer, Netlink sockets and throttling 
+-Developed a kernel module which when loaded instantiates a producer-consumer work queue and a kernel thread to process the queue. The queue contains various job requests such as  Contenation of multiple files etc.
