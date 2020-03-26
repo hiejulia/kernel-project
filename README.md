@@ -11,3 +11,51 @@
 - Understand concurrent execution on SMP platforms through kernel synchronization and locking techniques
 - Clock subsystem
 - Process communication techniques through signals and IPC mechanisms
+
+
+
+# Mac OSX and ioS 
++ FreeBSD 
++ kernel extension 
++ 
+
+# Hardware & firmware 
++ Extensible firmware interface 
++ hardware
+
++ Kernel space : XNU kernel: BSD, Mach, IO 
++ Quartz, OpenGL, Core Animation, Core Image, Audio , Text, Quicktime
++ XNU kernel 
++ Kernel extension 
++ kernel address space management 
++ Memory Allocation in Mach 
+`kern_return_t kmem_alloc(vm_map_t map, vm_offset_t *addrp, vm_size_t  size);
+
+kern_return_t kmem_alloc_contig(vm_map_t map, vm_offset_t *addrp,
+                                vm_size_t size, vm_offset_t mask, int flags);
+
+void kmem_free(vm_map_t map, vm_offset_t addr, vm_size_t size);`
+
++ BSD layer 
++ Network kernel extension 
++ Virtual file syste 
++ Unified Buffer Cache
++ The Libkern Library 
+
+
+
+
+<a href="https://imgur.com/H7PCoiz"><img src="https://i.imgur.com/H7PCoiz.png" title="source: imgur.com" /></a>
+
+
+# XCode and Kernel development env
++ Cocoa framework 
++ C++ 
++ XCode 
+    + Compiler for c/c++, objective c 
+    + sourcecode debug
+    + API + header files - used for kernel dev 
+    + profiling tools - measure code execution time + app dev + performance bottleneck 
++ kernel extension 
++ kernel extension template 
++ logfile /var/log/kernel.log 
