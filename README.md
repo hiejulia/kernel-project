@@ -13,7 +13,15 @@
 - Process communication techniques through signals and IPC mechanisms
 
 
-
+# Scripting 
++ Cryptographic Hash Function for random data & String manipulation 
++ Transform data / data process/ reporting
+    + Cut and awk script : open network port 
+    + sort & uniq
+    + parsing log file 
++ Network scripting & automation of distributed system 
+    + config a mini network and script for remote system 
++ test env : Vagrant & Virtual box Centos7 `vagrant up`
 # Mac OSX and ioS 
 + FreeBSD 
 + kernel extension 

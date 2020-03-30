@@ -1,0 +1,2 @@
+sshd systemctl start sshd
+rsyslogd systemctl start rsyslog
