@@ -1,3 +1,9 @@
+---
+noteId: "bc6a6960750811ea91b18f2ab79e3921"
+tags: []
+
+---
+
 # Kernel development project 
 - Implement processes, thread, scheduler, synchronisation, VM, Virtual file system , Unix OS
 - Use QEMU emulator to run and GDB for debugging 
@@ -67,3 +73,7 @@ void kmem_free(vm_map_t map, vm_offset_t addr, vm_size_t size);`
 + kernel extension 
 + kernel extension template 
 + logfile /var/log/kernel.log 
+
+
+# Docs / Reference 
++ https://en.wikipedia.org/wiki/Kernel_(operating_system)
