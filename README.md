@@ -1,5 +1,5 @@
 ---
-noteId: "bc6a6960750811ea91b18f2ab79e3921"
+noteId: "82bf9a10799e11ea987727c3f4cc6da0"
 tags: []
 
 ---
@@ -31,7 +31,7 @@ tags: []
 # Mac OSX and ioS 
 + FreeBSD 
 + kernel extension 
-+ 
++ The XNU kernel (doc : /docs/xnu-kernel.md)
 
 # Hardware & firmware 
 + Extensible firmware interface 
@@ -57,10 +57,11 @@ void kmem_free(vm_map_t map, vm_offset_t addr, vm_size_t size);`
 + The Libkern Library 
 
 
-
+<a href="https://imgur.com/8AA7FKO"><img src="https://i.imgur.com/8AA7FKO.png" title="source: imgur.com" /></a>
 
 <a href="https://imgur.com/H7PCoiz"><img src="https://i.imgur.com/H7PCoiz.png" title="source: imgur.com" /></a>
 
+<a href="https://imgur.com/8Qi4QXj"><img src="https://i.imgur.com/8Qi4QXj.png" title="source: imgur.com" /></a>
 
 # XCode and Kernel development env
 + Cocoa framework 
@@ -73,7 +74,31 @@ void kmem_free(vm_map_t map, vm_offset_t addr, vm_size_t size);`
 + kernel extension 
 + kernel extension template 
 + logfile /var/log/kernel.log 
+<a href="https://imgur.com/a35XdK1"><img src="https://i.imgur.com/a35XdK1.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/E02Gnj7"><img src="https://i.imgur.com/E02Gnj7.png" title="source: imgur.com" /></a>
+
+#### IO kit framework 
+    - kernel framework
+    - IOkit framework 
+- THE I/O KIT MODEL 
+    - hardware 
+    - usb device 
+<a href="https://imgur.com/enuOLoG"><img src="https://i.imgur.com/enuOLoG.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/AaBLcGt"><img src="https://i.imgur.com/AaBLcGt.png" title="source: imgur.com" /></a>
+- THE INFO.PLIST FILE
+    - list of drivers 
+    - probe score 
+    
+- THE KERNEL LIBRARY: LIBKERN
+    - os object 
+    - tracking mem leaks 
+    - container class
+    - query a container for object
+
+
+
 
 
 # Docs / Reference 
 + https://en.wikipedia.org/wiki/Kernel_(operating_system)
++ https://docs.01.org/clearlinux/latest/guides/kernel/kernel-development.html 
