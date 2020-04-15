@@ -1,9 +1,3 @@
----
-noteId: "82bf9a10799e11ea987727c3f4cc6da0"
-tags: []
-
----
-
 # Kernel development project 
 - Implement processes, thread, scheduler, synchronisation, VM, Virtual file system , Unix OS
 - Use QEMU emulator to run and GDB for debugging 
@@ -17,7 +11,7 @@ tags: []
 - Understand concurrent execution on SMP platforms through kernel synchronization and locking techniques
 - Clock subsystem
 - Process communication techniques through signals and IPC mechanisms
-
+- Kernal Audio driver 
 
 # Scripting 
 + Cryptographic Hash Function for random data & String manipulation 
@@ -96,9 +90,46 @@ void kmem_free(vm_map_t map, vm_offset_t addr, vm_size_t size);`
     - query a container for object
 
 
+## Audio driver 
+- SamplePCIAudioDevice
+- IOAudioDevice
+- IOAudioStream
+
+- MyAudioEngine
+- Driver & hardware init
+- audio driver's IOAudioDevice subclass
+- config hardware device provider 
+    - PCI & Thunderbolt, IO region 
+    - USB devices 
+
+- register audio control `IOKit/audio/AudioDefines.h.`
+
+
+- create input mute control `IOAudioToggleControl::createMuteControl`
+
+- implement Audio Engine 
+    -  I/O in an audio driver
+    - Allocate sample buffers and associated IOAudioStream instances.
+    - `performAudioEngineStart()`
+    - Header File for the MyAudioEngine Class
+
+- I/O Engine Initialization
+- Creating and Initializing Audio Streams
+- Starting and Stopping the Audio Engine
+
+- Engine Operation: Handling Interrupts and Timestamps
+
+
+
+
 
 
 
 # Docs / Reference 
 + https://en.wikipedia.org/wiki/Kernel_(operating_system)
 + https://docs.01.org/clearlinux/latest/guides/kernel/kernel-development.html 
+
+
+<a href="https://imgur.com/gmWahEy"><img src="https://i.imgur.com/gmWahEy.jpg" title="source: imgur.com" /></a>
+
+
