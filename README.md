@@ -145,6 +145,8 @@ void kmem_free(vm_map_t map, vm_offset_t addr, vm_size_t size);`
 # Docs / Reference 
 + https://en.wikipedia.org/wiki/Kernel_(operating_system)
 + https://docs.01.org/clearlinux/latest/guides/kernel/kernel-development.html 
+- Darwin kernel (mirror): https://github.com/apple/darwin-xnu
+- Apple opensource : https://developer.apple.com/opensource/
 
 
 <a href="https://imgur.com/gmWahEy"><img src="https://i.imgur.com/gmWahEy.jpg" title="source: imgur.com" /></a>
