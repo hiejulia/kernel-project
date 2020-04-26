@@ -90,6 +90,22 @@ void kmem_free(vm_map_t map, vm_offset_t addr, vm_size_t size);`
     - query a container for object
 
 
+
+## Universal serial bus 
+- USB specification and architecture
+- USB subsystem provided by I/O Kit
+- 
+
+## Networking 
+- BSD layer 
+- socketAPI 
+- protocol handler 
+- network interface 
+- network kernel extension NKE 
+- Network memory buffer 
+- IO Kit : write driver for network hardware 
+
+
 ## Audio driver 
 - IOKit Audio Support 
 - SamplePCIAudioDevice
