@@ -136,9 +136,15 @@ void kmem_free(vm_map_t map, vm_offset_t addr, vm_size_t size);`
 
 - Engine Operation: Handling Interrupts and Timestamps
 
+## Storage system 
+- Physical connection 
+- command protocol 
+- Transport layer driver
+- 
 
-
-
+- Media filter driver 
+    - Develop a filter scheme for encryption 
+    
 
 
 
