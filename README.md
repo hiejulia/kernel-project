@@ -147,6 +147,25 @@ void kmem_free(vm_map_t map, vm_offset_t addr, vm_size_t size);`
 
 
 
+## POSIX standard 
+- process 
+- signal 
+- fs
+- pipe
+- C 
+- IO 
+
+
+
+## Stack 
+- C/C++ 
+- Go arsenal CGO 
+- OpenSSL 
+
+
+
+
+
 
 # Docs / Reference 
 + https://en.wikipedia.org/wiki/Kernel_(operating_system)
