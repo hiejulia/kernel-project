@@ -1,3 +1,5 @@
+<a href="https://imgur.com/Rnkzzry"><img src="https://i.imgur.com/Rnkzzry.png" title="source: imgur.com" /></a>
+
 # Interact with driver 
 - iterate all connected USB hardware devices
 - polling method/ notification callback to register to receive notifications when USB device is connected 
@@ -21,3 +23,5 @@
 - allocate a port on which appliation can receive notification when async operation complete
 - run loop 
 - user client implement of async operation 
+
+
