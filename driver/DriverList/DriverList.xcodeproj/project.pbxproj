@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0CAB681D2494E06F00CA96A6 /* DriverList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB681C2494E06F00CA96A6 /* DriverList.c */; };
 		0CAB68252494E1A700CA96A6 /* Main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB68242494E1A700CA96A6 /* Main.c */; };
+		0CAB68282494E38800CA96A6 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAB68272494E38800CA96A6 /* IOKit.framework */; };
+		0CAB682A2494E38D00CA96A6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAB68292494E38D00CA96A6 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		0CAB681C2494E06F00CA96A6 /* DriverList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DriverList.c; sourceTree = "<group>"; };
 		0CAB681E2494E06F00CA96A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CAB68242494E1A700CA96A6 /* Main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Main.c; sourceTree = "<group>"; };
+		0CAB68272494E38800CA96A6 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		0CAB68292494E38D00CA96A6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +27,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CAB682A2494E38D00CA96A6 /* CoreFoundation.framework in Frameworks */,
+				0CAB68282494E38800CA96A6 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +38,7 @@
 		0CAB680F2494E06F00CA96A6 = {
 			isa = PBXGroup;
 			children = (
+				0CAB68262494E2B200CA96A6 /* Frameworks */,
 				0CAB681B2494E06F00CA96A6 /* DriverList */,
 				0CAB681A2494E06F00CA96A6 /* Products */,
 			);
@@ -53,6 +60,15 @@
 				0CAB68242494E1A700CA96A6 /* Main.c */,
 			);
 			path = DriverList;
+			sourceTree = "<group>";
+		};
+		0CAB68262494E2B200CA96A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CAB68292494E38D00CA96A6 /* CoreFoundation.framework */,
+				0CAB68272494E38800CA96A6 /* IOKit.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -10,7 +10,7 @@
 #include <IOKit/IOKitLib.h>
 
 
-int main (int argc, const char * argv[])
+int Main (int argc, const char * argv[])
 {
     CFDictionaryRef matchingDict = NULL;
     io_iterator_t iter = 0;
